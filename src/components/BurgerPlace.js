@@ -44,9 +44,12 @@ const BurgerPlace = ({
     
         return (
         <div>
+            <List>
           <h3>
             {data.burgerplaces_by_pk.name} <Badge>{data.burgerplaces_by_pk.description}</Badge>
           </h3>
+          </List>
+          
           <InputForm
           inputVal={inputVal}
           onChange={(e) => setInputVal(e.target.value)}

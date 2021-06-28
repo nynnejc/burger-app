@@ -3,12 +3,12 @@ import styled from "@emotion/styled";
 export const Input = styled.input`
   height: calc(1.5em + 1rem + 2px);
   padding: 0.5rem 1rem;
-  margin: 2rem 0;
+  margin: 3%;
   font-size: 2.4rem;
   line-height: 1.5;
   border-radius: 0.3rem;
   display: block;
-  width: 60%;
+  width: 56%;
   color: #495057;
   background-color: #fff;
   background-clip: padding-box;

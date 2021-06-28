@@ -48,7 +48,7 @@ const client = new ApolloClient ({
 const App = () => (
   <BrowserRouter>
     <ApolloProvider client={client}>
-      <Logo />
+      <Logo /> 
       <Switch>
         <Route path="/burgerplace/:id" component={BurgerPlace} />
         <Route path="/" component={BurgerSearch} />

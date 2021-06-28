@@ -12,5 +12,5 @@ export const Badge = styled.span`
   color: #fff;
   text-decoration: none;
   background-color: #22B896;
-  margin: 3% 1%;
+  margin: 3% 0%;
 `;
